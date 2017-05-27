@@ -1,13 +1,2 @@
-Python
---------------------
-NumPy-快速处理数据
-http://old.sebug.net/paper/books/scipydoc/numpy_intro.html
-
-Pandas 使用
-http://wiki.jikexueyuan.com/project/start-learning-python/311.html
-
-Python开发生态环境简介/包vs模块
-https://github.com/dccrazyboy/pyeco/blob/master/pyeco.rst
-
-matplotlib.pyplot材料
-https://matplotlib.org/users/pyplot_tutorial.html
+深度学习权威Yoshua Bengio和GAN之父Ian Goodfellow等人合著的DeepLearning经典教程《Deep Learning》
+http://blog.csdn.net/lqfarmer/article/details/71081994
