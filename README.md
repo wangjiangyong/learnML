@@ -1,8 +1,8 @@
 # learnML
 
-多逻辑分类
+多项式逻辑分类
 ---------
-![](https://github.com/wangjiangyong/learnML/raw/master/tutorial/softmax1.png)
+<img src="./tutorial/softmax1.png" width = "600" height = "334" align=center />
 
 
 应用
