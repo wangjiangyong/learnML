@@ -15,10 +15,10 @@ from six.moves.urllib.request import urlretrieve
 from six.moves import cPickle as pickle
 
 
-# 下载数据集
+# 下载数据集 需翻墙
 url = 'https://commondatastorage.googleapis.com/books1000/'
 last_percent_reported = None
-data_root = '.'  # Change me to store data elsewhere
+data_root = '/Users/wjyph/Desktop/tmp/'  # Change me to store data elsewhere
 
 
 def download_progress_hook(count, blockSize, totalSize):
@@ -57,8 +57,9 @@ def maybe_download(filename, expected_bytes, force=False):
 
 #train_filename = maybe_download('notMNIST_large.tar.gz', 247336696)
 #test_filename = maybe_download('notMNIST_small.tar.gz', 8458043)
-train_filename ='./notMNIST_large.tar.gz'
-test_filename = './notMNIST_small.tar.gz'
+#下载需翻墙，手工下载
+train_filename ='/Users/wjyph/Desktop/tmp/notMNIST_large.tar.gz'
+test_filename = '/Users/wjyph/Desktop/tmp/notMNIST_small.tar.gz'
 
 
 
@@ -94,6 +95,7 @@ train_folders = maybe_extract(train_filename)
 test_folders = maybe_extract(test_filename)
 
 
+#############################################################
 #数据预处理
 image_size = 28  # Pixel width and height.
 pixel_depth = 255.0  # Number of levels per pixel.
@@ -109,6 +111,7 @@ def load_letter(folder, min_num_images):
     for image in image_files:
         image_file = os.path.join(folder, image)
         try:
+            #归一化为具有大约零均值和标准差±0.5，使训练更容易
             image_data = (ndimage.imread(image_file).astype(float) -
                           pixel_depth / 2) / pixel_depth
             if image_data.shape != (image_size, image_size):
@@ -153,6 +156,7 @@ train_datasets = maybe_pickle(train_folders, 45000)
 test_datasets = maybe_pickle(test_folders, 1800)
 
 
+#################################################
 #验证归一化的图像
 pickle_file = train_datasets[0]  # index 0 should be all As, 1 = all Bs, etc.
 with open(pickle_file, 'rb') as f:
@@ -161,9 +165,11 @@ with open(pickle_file, 'rb') as f:
     sample_image = letter_set[sample_idx, :, :]  # extract a 2D slice
     plt.figure()
     plt.imshow(sample_image)  # display it
+    plt.show()
 
-
+#################################################
 #根据pickle文件，将数据拆分为三部分。
+
 def make_arrays(nb_rows, img_size):
     if nb_rows:
         dataset = np.ndarray((nb_rows, img_size, img_size), dtype=np.float32)
@@ -175,15 +181,15 @@ def make_arrays(nb_rows, img_size):
 
 def merge_datasets(pickle_files, train_size, valid_size=0):
     num_classes = len(pickle_files)
-    valid_dataset, valid_labels = make_arrays(valid_size, image_size)  #验证数据集
-    train_dataset, train_labels = make_arrays(train_size, image_size)  #训练数据集
+    valid_dataset, valid_labels = make_arrays(valid_size, image_size)
+    train_dataset, train_labels = make_arrays(train_size, image_size)
     vsize_per_class = valid_size // num_classes
-    tsize_per_class = train_size // num_classes                         #每类数据集大小。
+    tsize_per_class = train_size // num_classes
 
     start_v, start_t = 0, 0
     end_v, end_t = vsize_per_class, tsize_per_class
     end_l = vsize_per_class + tsize_per_class
-    for label, pickle_file in enumerate(pickle_files):                  #将数据notMNIST_large拆分为验证集和训练集
+    for label, pickle_file in enumerate(pickle_files):
         try:
             with open(pickle_file, 'rb') as f:
                 letter_set = pickle.load(f)
@@ -221,41 +227,37 @@ print('Validation:', valid_dataset.shape, valid_labels.shape)
 print('Testing:', test_dataset.shape, test_labels.shape)
 
 
-#数据集随机化
+########################################
+#数据集随机化，为了SGD
 def randomize(dataset, labels):
-  permutation = np.random.permutation(labels.shape[0])   #随机生成下标
-  shuffled_dataset = dataset[permutation,:,:]
-  shuffled_labels = labels[permutation]
-  return shuffled_dataset, shuffled_labels
+    permutation = np.random.permutation(labels.shape[0])   #随机生成下标
+    shuffled_dataset = dataset[permutation,:,:]
+    shuffled_labels = labels[permutation]
+    return shuffled_dataset, shuffled_labels
 train_dataset, train_labels = randomize(train_dataset, train_labels)
 test_dataset, test_labels = randomize(test_dataset, test_labels)
 valid_dataset, valid_labels = randomize(valid_dataset, valid_labels)
 
 
-
-
+###########################################
 #处理好的数据存储起来，方便来日再用
 pickle_file = os.path.join(data_root, 'notMNIST.pickle')
 
 try:
-  f = open(pickle_file, 'wb')
-  save = {
-    'train_dataset': train_dataset,
-    'train_labels': train_labels,
-    'valid_dataset': valid_dataset,
-    'valid_labels': valid_labels,
-    'test_dataset': test_dataset,
-    'test_labels': test_labels,
+    f = open(pickle_file, 'wb')
+    save = {
+        'train_dataset': train_dataset,
+        'train_labels': train_labels,
+        'valid_dataset': valid_dataset,
+        'valid_labels': valid_labels,
+        'test_dataset': test_dataset,
+        'test_labels': test_labels,
     }
-  pickle.dump(save, f, pickle.HIGHEST_PROTOCOL)
-  f.close()
+    pickle.dump(save, f, pickle.HIGHEST_PROTOCOL)
+    f.close()
 except Exception as e:
-  print('Unable to save data to', pickle_file, ':', e)
-  raise
+    print('Unable to save data to', pickle_file, ':', e)
+    raise
 
 statinfo = os.stat(pickle_file)
 print('Compressed pickle size:', statinfo.st_size)
-
-
-
-
