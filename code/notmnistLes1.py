@@ -189,6 +189,7 @@ def merge_datasets(pickle_files, train_size, valid_size=0):
     start_v, start_t = 0, 0
     end_v, end_t = vsize_per_class, tsize_per_class
     end_l = vsize_per_class + tsize_per_class
+    #将数据notMNIST_large拆分为验证集和训练集
     for label, pickle_file in enumerate(pickle_files):
         try:
             with open(pickle_file, 'rb') as f:
