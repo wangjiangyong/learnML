@@ -1,7 +1,7 @@
 # learnML
 
-[Udacity MOOC on Deep Learning with Google][udacity-deep-learning]    ✨✨✨
-[Andrew Ng Coursera on Machine Learning][coursera-machine-learning]   ✨
++ [Udacity MOOC on Deep Learning with Google][udacity-deep-learning]    ✨✨✨
++ [Andrew Ng Coursera on Machine Learning][coursera-machine-learning]   ✨
 
 ML相关应用
 -------------
