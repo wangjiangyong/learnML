@@ -1,12 +1,12 @@
 # 机器学习之路
 
-+ [Andrew Ng Coursera on Machine Learning][coursera-machine-learning]   
++ Andrew Ng的[Machine Learning][coursera-machine-learning]课程，可作为机器学习入门课程   
 
 + [Udacity MOOC on Deep Learning with Google][udacity-deep-learning]    
 
 
 
-ML相关应用
+ML Application
 -------------
 编程助手
 https://kite.com/
