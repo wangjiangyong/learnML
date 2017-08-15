@@ -15,8 +15,11 @@
 
 无味杂谈
 ------------
++ 学习方法问题，老生常谈。[Jeremy Howard和Rachel Thomas谈论到一些教学方法][8]
 + 英语的重要性不用多说，怎么掌握它，我也不知道。
-+ 为啥要翻墙，
++ 部分资料需要翻墙。(搬瓦工“一键SS”和支付宝付款)
++ 
++ 抗打击能力，喜欢就坚持下来。
 
 ML Application
 -------------
@@ -30,3 +33,4 @@ https://kite.com/
 [5]:https://cn.udacity.com/course/machine-learning-engineer-nanodegree--nd009-cn-advanced
 [6]:https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2
 [7]:https://www.coursera.org/specializations/deep-learning
+[8]:https://www.youtube.com/watch?v=kzt3-FHdAeM
