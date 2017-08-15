@@ -1,6 +1,6 @@
 # 机器学习之路
 
-+ Andrew Ng[Machine Learning][3]课程，可作为机器学习入门课程   
++ Andrew Ng [Machine Learning][3]课程，可作为机器学习入门课程   
 
 + [Udacity MOOC on Deep Learning with Google][udacity-deep-learning]    
 
