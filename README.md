@@ -5,13 +5,18 @@
 
 + Udacity [Machine Learning advanced][5]课程，有专门的导师“监督”完成课程，互动性较好，课后项目有专人批阅。提示此课程是付费课程，较为适合在职人员利用业余时间充电。  __推荐4星__
 
-+ Jeremy Howard [Practical Deep Learning For Coders][1]课程，暂未学习。
++ Jeremy Howard [Practical Deep Learning For Coders][1]课程，好评较多，暂未学习。
 
-+ Andrew Ng [Deep Learning][7]课程，暂未学习。
++ Andrew Ng [Deep Learning][7]课程，好评较多，暂未学习。
 
 + 林轩田 [机器学习基石][4]课程，讲解了机器学习理论和数学推导，需要一定数学基础。同时它的姊妹篇[机器学习技法][5]也是推导为主。  __推荐3星__
 
 + Udacity [Deep Learning with Google][2]课程，主讲人也来自Google，课后也有项目用于练手。    __推荐3星__
+
+杂谈
+------------
+
+
 
 ML Application
 -------------
