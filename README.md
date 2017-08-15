@@ -15,7 +15,7 @@
 
 无味杂谈
 ------------
-+ 学习方法问题，老生常谈，却很重要。[Jeremy Howard和Rachel Thomas谈论到一些教学方法][8]
++ 学习方法问题，老生常谈，却很重要。[Jeremy Howard和Rachel Thomas谈论到一些教学方法][8](需翻墙)
 + 英语的重要性不用多说，怎么掌握它，我也不知道。
 + 部分资料需要翻墙。(搬瓦工“一键SS”和支付宝付款)
 + ML/DL火了，各种乱七八糟报道和培训，浮躁环境。
@@ -23,8 +23,7 @@
 
 AI有趣应用
 -------------
-编程助手
-https://kite.com/
+[编程助手][9]
 
 [1]:http://course.fast.ai/
 [2]:https://www.udacity.com/course/deep-learning--ud730
@@ -34,3 +33,4 @@ https://kite.com/
 [6]:https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2
 [7]:https://www.coursera.org/specializations/deep-learning
 [8]:https://www.youtube.com/watch?v=kzt3-FHdAeM
+[9]:https://kite.com/
