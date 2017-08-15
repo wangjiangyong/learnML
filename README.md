@@ -4,7 +4,7 @@
 
 + Udacity [Machine Learning advanced][5]课程，有专门的导师“监督”完成课程，互动性较好，课后项目有专人批阅。提示此课程是付费课程，较为适合在职人员利用业余时间充电。
 
-+ [Practical Deep Learning For Coders][1]
++ Jeremy Howard [Practical Deep Learning For Coders][1]课程，
 
 + Andrew Ng [Deep Learning][7]课程，
 
