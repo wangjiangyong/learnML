@@ -23,8 +23,8 @@
 
 AI有趣应用
 -------------
-[编程助手][9]
-[iboske][10]
++ [The smart copilot for programmers][9]
++ [Life is full of decisions,have the answers at your hand][10]
 
 
 
