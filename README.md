@@ -24,6 +24,11 @@
 AI有趣应用
 -------------
 [编程助手][9]
+[iboske][10]
+
+
+
+
 
 [1]:http://course.fast.ai/
 [2]:https://www.udacity.com/course/deep-learning--ud730
@@ -34,3 +39,4 @@ AI有趣应用
 [7]:https://www.coursera.org/specializations/deep-learning
 [8]:https://www.youtube.com/watch?v=kzt3-FHdAeM
 [9]:https://kite.com/
+[10]:https://www.iboske.com/
