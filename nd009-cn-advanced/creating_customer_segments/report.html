@@ -12228,7 +12228,8 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>回答:</strong></p>
 <ul>
-<li>分别尝试了六个特征。预测分数分别为：-0.385749710204(Fresh), 0.156275395017(Milk),0.681884008544(Grocery), -0.210135890125(Frozen),  0.271666980627(Detergents_Paper),  -2.2547115372(Delicatessen)。其中Grocery特征的分数相对较好，对于使用这个特征区分消费习惯有一定效果。而其他特征没有必要。</li>
+<li>分别尝试了六个特征。预测分数分别为：-0.385749710204(Fresh), 0.156275395017(Milk),0.681884008544(Grocery), -0.210135890125(Frozen),  0.271666980627(Detergents_Paper),  -2.2547115372(Delicatessen)。</li>
+<li>其中Grocery特征的分数相对较好， 但对于使用这个特征区分消费习惯没有必要。因为与其他特征相关性较强，此特征包含的信息量越低，也就是说此特征可以由其他的特征推测出来。</li>
 </ul>
 
 </div>
@@ -19456,7 +19457,11 @@ QmCC
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>回答:</strong></p>
 <ul>
-<li>数据的第一个和第二个主成分总共0.7068表示了多少的方差，前四个主成分为0.9311。这里将Feature Weights大于0.5考虑为强相关。在第一个主成分中，Detergents_Paper(洗涤纸)类型大幅减少有益于第一主成分增加。在第二个主成分中，Fresh(新鲜食物)，Frozen(冷冻食物)，Delicatessen(熟食)类型减少有益于第二主成分增加。在第三个主成分中，Fresh(新鲜食物)类型减少，Delicatessen(熟食)类型增加有益于第三主成分增加。在第四个主成分中，Frozen(冷冻食物)类型增加，Delicatessen(熟食)类型减少有益于第四主成分增加。综上考虑，用户花费的角度来看消费行为最能代表酒店类型的客户。</li>
+<li>数据的第一个和第二个主成分总共表示了0.7068的方差，前四个主成分为0.9311。这里将Feature Weights大于0.5考虑为强相关。</li>
+<li>在第一个主成分中，detergents_paper(洗涤纸), milk(奶制品)和Grocery(副食品)上有很大的权重，且为负权重。它可能代表旅馆。</li>
+<li>在第二个主成分中，Fresh(新鲜食物)，Frozen(冷冻食物)，Delicatessen(熟食)上有很大的权重，且为负权重。它可能代表零售商。</li>
+<li>在第三个主成分中，Fresh(新鲜食物)，Delicatessen(熟食)上有很大的权重，且分别为负权重和正权重。它可能代表咖啡厅。</li>
+<li>在第四个主成分中，Frozen(冷冻食物)，Delicatessen(熟食)上有很大的权重，且分别为正权重和负权重。它可能代表餐馆。</li>
 </ul>
 
 </div>
