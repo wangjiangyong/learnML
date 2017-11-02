@@ -46,7 +46,7 @@ class LearningAgent(Agent):
             self.alpha = 0.0
         else:
             #self.epsilon = self.epsilon - 0.05
-            self.epsilon = math.exp(-0.02*self.trialNum)
+            self.epsilon = math.exp(-0.01*self.trialNum)
             #self.epsilon = 1.0/math.pow(self.trial_num,2)
             #self.epsilon = math.pow(0.95,self.trial_num)
             self.trialNum+=1
@@ -68,7 +68,7 @@ class LearningAgent(Agent):
         ## TO DO ##
         ###########
         # Set 'state' as a tuple of relevant data for the agent        
-        state = (waypoint,inputs['light'],inputs['left'],inputs['oncoming'])
+        state = (waypoint,inputs['light'],inputs['left'],inputs['right'],inputs['oncoming'])
 
         return state
 
@@ -128,7 +128,7 @@ class LearningAgent(Agent):
             else:
                 tmpMaxQ = self.get_maxQ(state)
                 tmpActions = [ i for i in self.valid_actions if self.Q[state][i] == tmpMaxQ ]
-                action = tmpActions[random.randint(0,len(tmpActions)-1)]
+                action = random.choice(tmpActions)
 
         return action
 
@@ -197,7 +197,7 @@ def run():
     #   log_metrics  - set to True to log trial and simulation results to /logs
     #   optimized    - set to True to change the default log file name
     #sim = Simulator(env,update_delay=0.01,log_metrics=True)
-    sim = Simulator(env,update_delay=0.01,log_metrics=True,optimized=True)
+    sim = Simulator(env,update_delay=0.01,log_metrics=True,optimized=True,display=False)
     #sim = Simulator(env)
     ##############
     # Run the simulator
@@ -205,7 +205,7 @@ def run():
     #   tolerance  - epsilon tolerance before beginning testing, default is 0.05 
     #   n_test     - discrete number of testing trials to perform, default is 0
     #sim.run(n_test=10)
-    sim.run(n_test=20,tolerance=0.05)
+    sim.run(n_test=20,tolerance=0.01)
 
 
 if __name__ == '__main__':
