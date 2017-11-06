@@ -132,7 +132,7 @@ dfD = pd.DataFrame({'aa':[5,10,15,20],
 scaler = preprocessing.StandardScaler()
 
 dfD = scaler.fit_transform(dfD)
-print dfD
+#print dfD
 
 
 
