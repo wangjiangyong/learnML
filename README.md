@@ -1,29 +1,38 @@
 # 机器学习之路
 在线课程
 -----------------
-+ Andrew Ng [Machine Learning][3]课程    __5星推荐__
-    - 可作为机器学习入门。课程内容相对容易理解，需要完成作业来帮助掌握。
++ Andrew Ng [Machine Learning][3]课程    __[5星推荐]__
+    - 可作为机器学习入门。理论推导深入浅出，容易理解。
+    - 课程内容成体系，最好完成作业来帮助掌握。
 
-+ Udacity [Machine Learning advanced][5]课程    __4星推荐__
-    - 有专门的导师“监督”完成课程，互动性较好，课后项目有专人批阅。提示此课程是付费课程，较为适合在职人员利用业余时间充电。
++ Udacity [Machine Learning advanced][5]课程    __[4星推荐]__
+    - 有专门的导师“监督”完成课程，互动性较好，课后项目有专人批阅。
+    - 提示此课程是付费课程(>4k)，较为适合在职人员利用业余时间充电。
 
-+ 邹博 [机器学习][12]课程    __4星推荐__ 
++ 邹博 [机器学习][12]课程    __[4星推荐]__ 
     - 讲师是中科院博士，深入浅出，资料丰富。
+    - 提示此课程是付费课程(<0.5k),
+    
++ 林轩田 [机器学习基石][4]课程    __[3星推荐]__  
+    - 讲解了机器学习理论和数学推导，需要数学基础扎实。
+    - 它的姊妹篇[机器学习技法][5](需翻墙)也是推导为主。 
 
-+ 林轩田 [机器学习基石][4]课程    __3星推荐__  
-    - ，讲解了机器学习理论和数学推导，需要数学基础扎实。同时它的姊妹篇[机器学习技法][5](需翻墙)也是推导为主。 
 
+>>>深度学习
++ Jeremy Howard [Practical Deep Learning For Coders][1]课程    __[4星推荐]__
+    - 课程着重上手实践为主，将调Learn by doing。讲师对于如何学习有着深刻的认识。
+    - 网上好评较多，暂未学习，需翻墙
 
++ Li FeiFei [Convolutional Neural Networks for Visual Recognition][11]课程    __[5星推荐]__
+    - 炙手可热的斯坦福课程，系统地讲解了深度学习在视觉识别中的理论和实践。
+    - 主要由李飞飞博士生讲解，对于模型背后的原理有着深刻的讲解。
 
-深度学习
-------------------
-+ Jeremy Howard [Practical Deep Learning For Coders][1]课程，好评较多，暂未学习。(需翻墙)
++ Andrew Ng [Deep Learning][7]课程    __[5星推荐]__
+    - 好评较多，暂未学习
 
-+ LiFeiFei [Convolutional Neural Networks for Visual Recognition][11]课程，体系化地教学。 __5星推荐__
-
-+ Andrew Ng [Deep Learning][7]课程，好评较多，暂未学习。
-
-+ Udacity [Deep Learning with Google][2]课程，主讲人也来自Google，课后也有项目用于练手。    __3星推荐__
++ Udacity [Deep Learning with Google][2]课程    __[3星推荐]__
+    - 理论讲解不多，偏重于上手训练。
+    - 讲师来自Google，课后有实践项目。    
 
 
 
