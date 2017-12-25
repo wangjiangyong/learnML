@@ -22,6 +22,7 @@
 >深度学习
 + Jeremy Howard [Practical Deep Learning For Coders][1]课程        __[4星推荐]__
     - 课程着重上手实践为主，将调Learn by doing。讲师对于如何学习有着深刻的认识。
+    - [Jeremy Howard和Rachel Thomas谈论到一些教学方法][8](需翻墙) 
     - 网上好评较多，暂未学习，需翻墙
 
 + Li FeiFei [Convolutional Neural Networks for Visual Recognition][11]课程        __[5星推荐]__
@@ -39,10 +40,14 @@
 
 无味杂谈
 ------------
-+ 学习方法问题，老生常谈，却很重要。[Jeremy Howard和Rachel Thomas谈论到一些教学方法][8](需翻墙)
-+ 英语的重要性不用多说，怎么掌握它，我也不知道。
-+ 部分资料需要翻墙。(搬瓦工“一键SS”和支付宝付款)
-+ ML/DL火了，各种乱七八糟报道和培训，浮躁环境。
+>某某原因，翻墙(搬瓦工“一键SS”和支付宝付款)  （渠道）   
+>>信息社会，英语是极其重要的载体。           （资源）
+>>>学习方法，老生常谈，机器重要。            （汲取）
+
+
++ ML/DL持续高热！！！各种报道和培训，热火朝天的景象。
+
+
 + 抗打击能力，喜欢就坚持下来。
 
 AI有趣应用
