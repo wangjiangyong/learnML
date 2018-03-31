@@ -1,3 +1,6 @@
+### 数据集
++ Kaggle猫狗大战
+
 ### 环境
 + Ubuntu 16.04 LTS
 + NVIDIA GTX 1080
@@ -7,10 +10,13 @@
 + Tensorflow 1.6
 + Keras 2.1.5
 
-### 数据集
-
-获取地址：https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
-
 ### 文件目录
 + code目录包含了所有代码文件，均使用Jupyter notebook实现
 + 项目报告.pdf
+
+### 提交Kaggle结果
+
+
+
+
+[1] https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
