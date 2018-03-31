@@ -16,7 +16,7 @@
 + 项目报告.pdf
 
 ### 提交Kaggle结果
-<img src="https://github.com/wangjiangyong/learnML/blob/master/nd009-cn-advanced/dogs_vs_cats/tutorial/Kaggledata.png?raw=true" width="400" height="235" />
+<img src="https://github.com/wangjiangyong/learnML/blob/master/nd009-cn-advanced/dogs_vs_cats/tutorial/Kaggledata.png?raw=true" width="500" height="295" />
 
 ### 运行时间
 + 
