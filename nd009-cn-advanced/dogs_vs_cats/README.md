@@ -19,6 +19,10 @@
 <img src="https://github.com/wangjiangyong/learnML/blob/master/nd009-cn-advanced/dogs_vs_cats/tutorial/Kaggledata.png?raw=true" width="500" height="295" />
 
 ### 运行时间
-+ 
++ InceptionV3提取特征耗时        4分8秒
++ Xception提取特征耗时       5分58秒
++ InceptionResNetV2提取特征耗时       8分1秒
++ Fine-Tuning及预测耗时         12秒
+
 
 [1]:https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
