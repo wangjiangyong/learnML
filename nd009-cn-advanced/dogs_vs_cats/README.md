@@ -1,5 +1,5 @@
 ### 数据集
-+ Kaggle猫狗大战
++ [Kaggle猫狗大战][1]
 
 ### 环境
 + Ubuntu 16.04 LTS
@@ -12,6 +12,7 @@
 
 ### 文件目录
 + code目录包含了所有代码文件，均使用Jupyter notebook实现
++ tutorial目录包括部分素材
 + 项目报告.pdf
 
 ### 提交Kaggle结果
@@ -19,4 +20,4 @@
 
 
 
-[1] https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
+[1]:https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
