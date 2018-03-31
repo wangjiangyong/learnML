@@ -3,7 +3,7 @@
 
 ### 环境
 + Ubuntu 16.04 LTS
-+ NVIDIA GTX 1080
++ GeForce GTX 1080 x 2
 + CUDA 8.0
 + cuDNN 6.0
 + Anaconda3-5.1.0 (Python 3.6)    
@@ -16,9 +16,8 @@
 + 项目报告.pdf
 
 ### 提交Kaggle结果
-[tupian][2]
+<img src="https://github.com/wangjiangyong/learnML/blob/master/nd009-cn-advanced/dogs_vs_cats/tutorial/Kaggledata.png?raw=true" width="797" height="471" />
 
-
+### 运行时间
 
 [1]:https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
-[2]:https://github.com/wangjiangyong/learnML/blob/master/nd009-cn-advanced/dogs_vs_cats/tutorial/Kaggledata.png?raw=true
