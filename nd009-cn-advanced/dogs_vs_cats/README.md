@@ -16,8 +16,9 @@
 + 项目报告.pdf
 
 ### 提交Kaggle结果
-
+[tupian][2]
 
 
 
 [1]:https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
+[2]:https://github.com/wangjiangyong/learnML/blob/master/nd009-cn-advanced/dogs_vs_cats/tutorial/Kaggledata.png?raw=true
