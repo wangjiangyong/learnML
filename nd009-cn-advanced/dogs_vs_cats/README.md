@@ -10,3 +10,7 @@
 ### 数据集
 
 获取地址：https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
+
+### 文件目录
++ code目录包含了所有代码文件，均使用Jupyter notebook实现
++ 项目报告.pdf
