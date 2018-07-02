@@ -18,6 +18,8 @@
     - 讲解了机器学习理论和数学推导，需要数学基础扎实。
     - 它的姊妹篇[机器学习技法][5](需翻墙)也是推导为主。 
 
++ Google [机器学习速成][14]课程         __[4星推荐]__
+    - Google出品，暂未学习
 
 >深度学习
 + Jeremy Howard [Practical Deep Learning For Coders][1]课程        __[4星推荐]__
@@ -67,4 +69,4 @@ AI有趣应用
 [11]:http://www.mooc.ai/course/268
 [12]:http://www.chinahadoop.cn/course/1068
 [13]:https://blogs.bing.com/maps/2018-06/microsoft-releases-125-million-building-footprints-in-the-us-as-open-data/
-
+[14]:https://developers.google.com/machine-learning/crash-course/
