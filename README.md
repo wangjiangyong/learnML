@@ -45,16 +45,11 @@
 >> __读取__ /英语是极其重要的信息载体。               
 >>> __汲取__ /学习方法。             
 
-+ 辨是非，明舍取。
-> 报道和培训ML/DL持续高热，热火朝天的景象。
-
-+ 搏恒毅
-
 AI有趣应用
 -------------
 + [The smart copilot for programmers][9]
 + [Life is full of decisions,have the answers at your hand][10]
-
++ [Microsoft Releases 125 million Building Footprints in the US as Open Data][13]
 
 
 
@@ -71,5 +66,5 @@ AI有趣应用
 [10]:https://www.iboske.com/
 [11]:http://www.mooc.ai/course/268
 [12]:http://www.chinahadoop.cn/course/1068
-
+[13]:https://blogs.bing.com/maps/2018-06/microsoft-releases-125-million-building-footprints-in-the-us-as-open-data/
 
