@@ -38,6 +38,9 @@
     - 理论讲解不多，偏重于上手训练。
     - 讲师来自Google，课后有实践项目。    
 
++ 曹健 [人工智能实践：Tensorflow笔记][15]课程        __[4星推荐]__
+    - 暂未学习
+    - 讲师来自北大，课后有实践项目。  
 
 
 无味杂谈
@@ -70,3 +73,4 @@ AI有趣应用
 [12]:http://www.chinahadoop.cn/course/1068
 [13]:https://blogs.bing.com/maps/2018-06/microsoft-releases-125-million-building-footprints-in-the-us-as-open-data/
 [14]:https://developers.google.com/machine-learning/crash-course/
+[15]:https://www.icourse163.org/course/PKU-1002536002
